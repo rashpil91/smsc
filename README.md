@@ -31,7 +31,7 @@ To use sender, you should configure it in the application configuration like the
 'components' => [
 	...
         'smsc' => [
-            'class' => rashpil91\smsc\Smsc',
+            'class' => 'rashpil91\smsc\Smsc',
             'config' => [
                 'login' => "", //Ваш логин
                 'psw' => "", //Ваш пароль
