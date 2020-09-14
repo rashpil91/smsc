@@ -1,0 +1,21 @@
+{
+    "name": "rashpil91/yii2-smsc",
+    "description": "Компонент для отправки смс с помощью сервиса smsc.ru",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","smsc"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Parshin",
+            "email": "rashpil9@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rashpil91\\smsc\\": ""
+        }
+    }
+}
