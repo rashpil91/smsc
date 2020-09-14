@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rashpil91\\smsc\\": "src"
+            "rashpil91\\smsc\\": "rashpil91/yii2-smsc/src"
         }
     }
 }
