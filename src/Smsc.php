@@ -1,6 +1,6 @@
 <?php
 
-namespace rashpil91\smsc\src;
+namespace rashpil91\smsc;
 
 use yii\base\BaseObject;
 
@@ -68,7 +68,7 @@ class Smsc extends BaseObject
 
         $result = $this->send("balance.php");
 
-        return floatval($result['balance']);
+        return floatval($result->balance);
 
     }
 
